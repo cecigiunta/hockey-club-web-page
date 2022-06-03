@@ -1,0 +1,60 @@
+/* MAIN  */
+.divFlexContainer {
+    background-color: rgba(0, 0, 0, 0.635);
+    margin: auto;
+    width: 800px;
+    height: 100%;
+    /* Estilos Flex */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.sectionTable {
+    background-color: aliceblue;
+    width: 700px;
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pRules1{
+    font-style: italic;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* TABLA */
+.table {
+    justify-content: center;
+    margin: 50px auto;
+    width: 650px;
+}
+table, td, th {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+tr:hover{
+    background-color: rgba(242, 142, 142, 0.252) !important;
+}
+.headerTable{
+    background-color: brown;
+    color: white;
+}
+.datesStyle{
+    background: rgb(225, 230, 246)
+}
+tbody tr:nth-child(even){
+    background: rgb(253, 245, 221);
+}
+
+/*ARTICLE */
+.sectionSchedule{
+    padding: 20px;
+}
+.pRulesBottom{
+    display: inline-block;
+    margin-right: 20px;
+}

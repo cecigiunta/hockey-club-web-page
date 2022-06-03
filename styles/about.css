@@ -1,0 +1,50 @@
+/* MAIN  */
+.mainAbout{
+    background-image: url("../assets/img/design2.jpg");
+    width: 100%;
+}
+.divFlexContainer{
+    background-color: rgba(0, 0, 0, 0.635);
+    margin: auto;
+    width: 800px;
+    height: 1000px;
+    /* Estilos Flex */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imgAbout{
+    height: 200px;
+    width: 200px;
+}
+
+/* SECTION */
+.sectionStyle {
+    background-color: white; 
+    margin: 20px;
+    box-shadow: 0px 5px 15px 1px;
+    width: 600px; 
+    height: 200px;
+}
+.headerSection{
+    padding: 10px;
+    background-color: rgba(208, 208, 208, 0.305);
+}
+.headerSection h3{
+    color: rgb(199, 7, 7);
+    font-size: bolder;
+    margin-left: 10px;
+}
+p {
+    margin-top: 10px;
+    padding: 20px;
+}
+.sectionStyle:hover{
+    width: 800px;
+    height: 250px;
+    font-size: larger;
+}
+
+

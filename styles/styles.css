@@ -1,0 +1,89 @@
+*:not(ol, ul, li) {
+    font-family: sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+.headerContainer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100px;
+    
+}
+.titleHeader{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    color: rgb(255, 213, 0);
+}
+
+/*NAVBAR*/
+.navBar{
+    background-color: rgb(199, 7, 7);
+    text-align: center;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+.navBar a { 
+    list-style: none;
+    padding: 15px 40px;
+    display: inline-block;
+    font-weight: 100;
+}
+.navLink {
+    text-decoration: none;
+    color: aliceblue;
+}
+.navLink:hover{
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+.actualRef {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    background-color:rgba(255, 255, 255, 0.514) !important;
+}  
+
+.logoHeader{
+    position: absolute;
+    left: 150px;
+    top: 60px;
+    width: 130px;
+    height: 130px;
+    z-index: 2;
+}
+
+/*HEADER ANTES DEL MAIN*/
+.headerStyle{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+.headerStyle span {
+    font-size: larger;
+}
+
+/*MAIN*/
+.mainStyle{
+    background-image: url("../assets/img/design2.jpg");
+    width: 100%;
+}
+
+/* FOOTER */
+.footerStyle{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
