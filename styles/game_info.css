@@ -2,7 +2,7 @@
 .divFlexContainer {
     background-color: rgba(0, 0, 0, 0.635);
     margin: auto;
-    width: 800px;
+    width: 80%;
     height: 100%;
     /* Estilos Flex */
     display: flex;
@@ -10,9 +10,9 @@
     flex-wrap: nowrap;
     justify-content: center;
 }
-.sectionTable {
+.divTable {
     background-color: aliceblue;
-    width: 700px;
+    width: 70%;
     margin: 20px 50px;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
 .table {
     justify-content: center;
     margin: 50px auto;
-    width: 650px;
+    width: 90%;
 }
 table, td, th {
     border-collapse: collapse;
@@ -50,8 +50,8 @@ tbody tr:nth-child(even){
     background: rgb(253, 245, 221);
 }
 
-/*ARTICLE */
-.sectionSchedule{
+/* BOTTOM PART */
+.divSchedule{
     padding: 20px;
 }
 .pRulesBottom{

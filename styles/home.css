@@ -3,7 +3,6 @@
     background-image: url("../assets/img/design2.jpg");
     width: 100%;
 }
-
 .divContainerHome{
     background-color: rgba(0, 0, 0, 0.635);
     margin: auto;
@@ -13,11 +12,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* justify-content: space-evenly; */
 }
 
 /*ARTICLE SECTIONS*/
-.articleFlexContainer{
+.divFlexContainer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -45,20 +43,20 @@ p {
     padding: 20px;
 }
 
-/*ARTICLE DE IMAGENES*/
-.articleContainerImgs{
+/*ARTICLE (div) DE IMAGENES*/
+.divContainerImgs{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
 }
-.articleContainerImgs img{
+.divContainerImgs img{
     width: 500px;
     height: 300px;
     box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.61);
 }
-.articleContainerImgs img:hover{
+.divContainerImgs img:hover{
     width: 530px;
     height: 330px;
     box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.61);
